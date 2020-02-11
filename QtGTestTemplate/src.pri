@@ -1,0 +1,10 @@
+VPATH += $${PROJECT_SRC_PATH}
+SOURCES += \
+	SomeCode.cpp \
+
+VPATH += $${PROJECT_HDR_PATH}
+HEADERS += \
+	SomeCode.hpp \
+
+INCLUDEPATH += \
+	$$PROJECT_HDR_PATH
